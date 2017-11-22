@@ -1,0 +1,32 @@
+.social li {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+
+}
+.social ul {
+    margin: 0;
+    padding: 50px;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+
+.social .fa-envelope-o:hover {
+    background: #343434;
+}
+.social .fa-instagram:hover {
+    background: #0094BC;
+}
+.social .fa-facebook-official:hover {
+    background: #0094BC;
+}

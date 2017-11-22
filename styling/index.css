@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header-image {
+    height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+.left-blob {
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.right-blob {
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    color: red;
+}
+
+
