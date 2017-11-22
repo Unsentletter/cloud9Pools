@@ -1,7 +1,7 @@
 .social li {
     margin: 0;
-    padding: 0;
     padding-left: 15px;
+    padding-top: 10px;
 
 }
 .social ul {
@@ -21,12 +21,11 @@
     transition: all ease 0.3s;
 }
 
-.social .fa-envelope-o:hover {
-    background: #343434;
-}
 .social .fa-instagram:hover {
     background: #0094BC;
 }
 .social .fa-facebook-official:hover {
     background: #0094BC;
 }
+
+/*media 800*/

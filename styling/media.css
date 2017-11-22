@@ -1,0 +1,26 @@
+@media only screen and (max-width: 10000px) {
+    .logo1 {
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .logo1 {
+        display: none;
+    }
+    
+    .logo2 {
+        display: block;
+    }
+
+    body {
+        background-color: red;
+    }
+}
