@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="styling/index.css">
         <link rel="stylesheet" type="text/css" href="styling/socials.css">
         <link rel="stylesheet" type="text/css" href="styling/media.css">
+        <link rel="stylesheet" type="text/css" href="styling/modal.css">
 
         <!--//VIEWPORT FOR MOBILE RESPONSIVENESS//-->
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -51,24 +52,39 @@
             <div class="right-blob flex-item">
                 <div class="social">
                     <ul>
-                        <li>
-                            <img class=social-img src="images/email.svg">&nbsp;&nbsp;&nbsp;info@cloud9pools.com.au
+                        <li class="social-list">
+                            <a class="social-options" id="openEmailModal">
+                                <img class=social-img src="images/email.svg">&nbsp;&nbsp;&nbsp;info@cloud9pools.com.au
+                            </a>
                         </li>
-                        <li>
-                            <a href="https://www.instagram.com/cloud9pools/" target="_blank">
+                        <li class="social-list">
+                            <a class="social-options" href="https://www.instagram.com/cloud9pools/" target="_blank">
                                 <img class=social-img src="images/instagram.svg">&nbsp;&nbsp;&nbsp;@cloud9pools
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.facebook.com/cloud9pools/" target="_blank">
+                        <li class="social-list">
+                            <a class="social-options" href="https://www.facebook.com/cloud9pools/" target="_blank">
                                 <img class=social-img src="images/facebook.svg">&nbsp;&nbsp;&nbsp;@cloud9pools
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
+
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form action="https://formspree.io/tristan@tristansouthwell.com"
+                          method="POST">
+                        <input type="text" name="name">
+                        <input type="email" name="_replyto">
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
 
-    <script src="https://use.fontawesome.com/7252433955.js"></script>
+    <script src="js/modal.js"></script>
 </html>
